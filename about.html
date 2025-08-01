@@ -40,55 +40,74 @@
 
         <!-- Navbar start -->
         <div class="container-fluid fixed-top">
-            <div class="container topbar bg-primary d-none d-lg-block">
-                <div class="d-flex justify-content-between">
-                    <div class="top-info ps-2">
-                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">Kisubi Mission Village</a></small>
-                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">shanitaanne50@gmail.com</a></small>
-                    </div>
-                    <div class="top-link pe-2">
-                        <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
-                        <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
-                        <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
-                    </div>
+    <!-- Topbar -->
+    <div class="container topbar bg-primary d-none d-lg-block">
+        <div class="d-flex justify-content-between">
+            <div class="top-info ps-2">
+                <small class="me-3">
+                    <i class="fas fa-map-marker-alt me-2 text-secondary"></i>
+                    <a href="#" class="text-white">Kisubi Mission Village</a>
+                </small>
+                <small class="me-3">
+                    <i class="fas fa-envelope me-2 text-secondary"></i>
+                    <a href="#" class="text-white">shanitaanne50@gmail.com</a>
+                </small>
+            </div>
+            <div class="top-link pe-2">
+                <a href="#" class="text-white"><small class="text-white mx-2">Privacy Policy</small>/</a>
+                <a href="#" class="text-white"><small class="text-white mx-2">Terms of Use</small>/</a>
+                <a href="#" class="text-white"><small class="text-white ms-2">Sales and Refunds</small></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="container px-0">
+        <nav class="navbar navbar-light bg-white navbar-expand-xl">
+            <!-- Brand + Logo -->
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <img src="/brand 2/logo.jpg" alt="Logo" style="height: 40px; width: auto; margin-right: 10px;">
+                <h1 class="text-primary display-6 mb-0">Nanne's Cake Studio</h1>
+            </a>
+
+            <!-- Toggler aligned right -->
+            <button class="navbar-toggler ms-auto py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars text-primary"></span>
+            </button>
+
+            <!-- Collapsible Nav -->
+            <div class="collapse navbar-collapse bg-white w-100" id="navbarCollapse">
+                <!-- Nav links (centered on large screens) -->
+                <div class="navbar-nav mx-auto text-center">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
+                    <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+
+                <!-- Icons (search, user) -->
+                <div class="d-flex ms-auto justify-content-center mt-3 mt-xl-0">
+                    <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal">
+                        <i class="fas fa-search text-primary"></i>
+                    </button>
+                    <a href="#" class="my-auto">
+                        <i class="fas fa-user fa-2x"></i>
+                    </a>
                 </div>
             </div>
-                <div class="container px-0">
-         <nav class="navbar navbar-light bg-white navbar-expand-xl">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <img src="/brand 2/logo.jpg" alt="Logo" style="height: 40px; width: auto; margin-right: 10px;">
-            <h1 class="text-primary display-6 mb-0">Nanne's Cake Studio</h1>
-        </a>
-        <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="fa fa-bars text-primary"></span>
-        </button>
-        <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
-            <div class="navbar-nav mx-auto">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About Us</a>
-                <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-            </div>
-            <div class="d-flex m-3 me-0">
-                <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
-                
-                <a href="#" class="my-auto">
-                    <i class="fas fa-user fa-2x"></i>
-                </a>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 </div>
-        </div>
-        <!-- Navbar End -->
 
-        <div class="container-fluid page-header py-5">
-                    <h1 class="text-center text-white display-6">About Us</h1>
-                    <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active text-white">About Us</li>
-                    </ol>
-        </div>
+<!-- Page Header -->
+<div class="container-fluid page-header py-5">
+    <h1 class="text-center text-white display-6">About Us</h1>
+    <ol class="breadcrumb justify-content-center mb-0">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item active text-white">About Us</li>
+    </ol>
+</div>
+
 
         <!-- Featurs Section Start -->
         <div class="container-fluid featurs py-5">
